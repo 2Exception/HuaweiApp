@@ -9,7 +9,7 @@ import time
 from ..items import HuaweiAppItem
 from ..utils import LogUtil
 from ..utils import StrUtil
-class BaiduSpider(scrapy.Spider):
+class HuaweiSpider(scrapy.Spider):
 
 	# 爬虫名字
     name = "huaweiApp"
